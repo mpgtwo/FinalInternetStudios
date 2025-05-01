@@ -9,18 +9,17 @@
                 Artists:-->
   </head>
   <body>
-    <div class="cssBackgroundImg">
-      <!--loading the image in this division with the parent and child image classes-->
-    </div>
+    <script>
+      new Pageflip('#myDiv', [
+        '/page_001.jpg',
+        '/page_002.jpg',
+        '/page_003.jpg',
+        '/page_004.jpg',
+        '/page_005.jpg',
+        '/page_006.jpg'
+      ]);
+    </script>
 
-
-    <h1>Everything You Need</h1>
-
-    <div class="text">
-      <h2>TIME</h2>
-      <h3><a href="https://www.bigtimer.net/">Countdown</a></h3>
-    </div>
-
-    <script src="assets/js/main.js"></script>
+    <script src="page-flip.js"></script>
   </body>
 </html>
